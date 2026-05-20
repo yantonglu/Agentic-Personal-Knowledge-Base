@@ -1,0 +1,36 @@
+.DS_Store
+Thumbs.db
+
+# Obsidian local configuration and plugins
+.obsidian/
+
+# Local agent/runtime state
+.claude/
+.claudian/
+.codex/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local process logs
+progress.md
+
+# Private vault content. By default, category contents are ignored so users do
+# not accidentally publish real notes. The synthetic example category below is
+# intentionally kept as a reproducible, non-private replacement.
+[0-9][0-9]-*/**
+!01-Example/
+!01-Example/README.md
+!01-Example/.TEMPLATE.md
+!01-Example/SampleNote.md
+
+!00-Inbox/
+00-Inbox/*
+!00-Inbox/.gitkeep
+assets/*
+!assets/README.md
+!assets/.gitkeep
+
+# Generated conversion output
+*.converted.md
